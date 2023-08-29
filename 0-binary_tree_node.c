@@ -16,9 +16,10 @@ if (node == NULL)
 return (NULL);
 
 
-node->parent = parent;
 node->left = NULL;
 node->right = NULL;
 node->n = value;
+node->parent = parent;
+
 return (node);
 }
